@@ -1,0 +1,51 @@
+site_a + site_b
+cat("s?bado: ", -80 - 40)
+load("C:/Users/admin/Downloads/zumbi.csv")
+library(readr)
+zumbi <- read_csv("C:/Users/admin/Downloads/zumbi.csv")
+View(zumbi)
+library(dplyr)
+zumbi %>% group_by(galoes_pessoa) %>% summarise(
+mínimo = min(zumbi$galoes_pessoa),
+máximo = max(zumbi$galoes_pessoa),
+media  = mean(zumbi$galoes_pessoa),
+mediana= median(zumbi$galoes_pessoa),
+desvio = sd(zumbi$galoes_pessoa))
+zumbi$galoes_pessoa <- zumbi$agua/zumbi$moradores
+library(dplyr)
+zumbi %>% group_by(galoes_pessoa) %>% summarise(
+mínimo = min(zumbi$galoes_pessoa),
+máximo = max(zumbi$galoes_pessoa),
+media  = mean(zumbi$galoes_pessoa),
+mediana= median(zumbi$galoes_pessoa),
+desvio = sd(zumbi$galoes_pessoa))
+zumbi%>%group_by(galoes_pessoa)%>%summarise(
+mínimo = min(zumbi$galoes_pessoa),
+máximo = max(zumbi$galoes_pessoa),
+media  = mean(zumbi$galoes_pessoa),
+mediana= median(zumbi$galoes_pessoa),
+desvio = sd(zumbi$galoes_pessoa))
+library(dplyr)
+zumbi%>%group_by(galoes_pessoa)%>%summarise(
+mínimo = min(zumbi$galoes_pessoa),
+máximo = max(zumbi$galoes_pessoa),
+media  = mean(zumbi$galoes_pessoa),
+mediana= median(zumbi$galoes_pessoa),
+desvio = sd(zumbi$galoes_pessoa))]
+library(dplyr)
+zumbi%>%group_by(galoes_pessoa)%>%summarise(
+mínimo = min(zumbi$galoes_pessoa),
+máximo = max(zumbi$galoes_pessoa),
+media  = mean(zumbi$galoes_pessoa),
+mediana= median(zumbi$galoes_pessoa),
+desvio = sd(zumbi$galoes_pessoa))
+nstall.packages(dplyr)
+install.packages(dplyr)
+"dplyr"
+library(dplyr)
+zumbi %>% group_by(galoes_pessoa) %>% summarise(
+mínimo = min(zumbi$galoes_pessoa),
+máximo = max(zumbi$galoes_pessoa),
+media  = mean(zumbi$galoes_pessoa),
+mediana= median(zumbi$galoes_pessoa),
+desvio = sd(zumbi$galoes_pessoa))
